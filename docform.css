@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+button,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --themeBlue: rgb(80, 132, 191);
+    --gray: #efefef;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-photo/medium-shot-doctors-wearing-protective-equipment_23-2149994405.jpg?w=1380&t=st=1679558198~exp=1679558798~hmac=d104d919307ddb4f502c883edcff484c21ffe189cd6a1797f03f0a48d4a05ec1");
+    background-size: 100%;
+    background-attachment: auto;
+
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+.error
+{
+  color: red;
+  size: 80%
+}
+.hidden
+{
+  display:none;
+}
+
